@@ -1,0 +1,7 @@
+/__pycache__
+/.pytest_cache
+/.venv
+/.vscode
+/C
+/Python/*.ipynb
+/Python/test*.py
