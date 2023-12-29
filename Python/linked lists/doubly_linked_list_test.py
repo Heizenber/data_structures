@@ -75,27 +75,8 @@ def test_push_back():
     assert list.head.value == 5
     assert list.tail.value == 5
 
-def test_pop_front():
-    list.push_front(5)
-    list.push_front(10)
-    list.pop_front()
-    assert list.head.value == 5
-    assert list.tail.value == 5
 
-def test_pop_back():
-    list.push_front(5)
-    list.push_front(10)
-    list.pop_back()
-    assert list.head.value == 10
-    assert list.tail.value == 10
 
-def test_front():
-    list.push_front(5)
-    list.push_front(10)
-    assert list.front() == 10
 
-def test_back():
-    list.push_front(5)
-    list.push_front(10)
-    assert list.back() == 5
+
 

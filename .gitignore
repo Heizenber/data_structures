@@ -4,4 +4,8 @@
 /.vscode
 /C
 /Python/*.ipynb
-/Python/test*.py
+/Python/exercises
+
+# Added by cargo
+
+/target
