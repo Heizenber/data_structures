@@ -39,6 +39,9 @@ class _DoublyLinkedBase:
         return element
 
 
+class Empty(Exception):
+    pass
+
 if __name__ == '__main__':
     deque = _DoublyLinkedBase()
     print(deque)

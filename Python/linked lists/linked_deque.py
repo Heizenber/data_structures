@@ -1,7 +1,6 @@
-from basic_linked_list import _DoublyLinkedBase
+from basic_linked_list import _DoublyLinkedBase, Empty
 
-class Empty(Exception):
-    pass
+
 
 class LinkedDeque(_DoublyLinkedBase):
     def first(self):
