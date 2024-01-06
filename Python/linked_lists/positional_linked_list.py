@@ -141,3 +141,7 @@ if __name__ == '__main__':
     positional_list.add_after(positional_list.last(), 20)
     print(positional_list)
     positional_list.add_before(positional_list.first(), 21)
+    another_positional_list = PositionalList()
+    another_positional_list.add_first(1)
+    another_positional_list.add_last(2)
+    positional_list.add_after(positional_list.last(), another_positional_list.first())

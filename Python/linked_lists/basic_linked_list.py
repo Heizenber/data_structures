@@ -43,21 +43,4 @@ class Empty(Exception):
     pass
 
 if __name__ == '__main__':
-    deque = _DoublyLinkedBase()
-    print(deque)
-    deque.insert_first(1)
-    print(deque)
-    deque.insert_last(2)
-    print(deque)
-    deque.insert_first(3)
-    print(deque)
-    deque.insert_last(4)
-    print(deque)
-    deque.delete_first()
-    print(deque)
-    deque.delete_last()
-    print(deque)
-    deque.delete_first()
-    print(deque)
-    deque.delete_last()
-    print(deque)
+    pass
