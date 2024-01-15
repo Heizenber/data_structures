@@ -1,5 +1,4 @@
-from basic_linked_list import _DoublyLinkedBase, Empty
-
+from basic_linked_list import _DoublyLinkedBase
 class PositionalList(_DoublyLinkedBase):
     class Position:
         def __init__(self, container, node):

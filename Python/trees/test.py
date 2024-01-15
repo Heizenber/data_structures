@@ -1,0 +1,1 @@
+from ..queues.queue_linked import Queue
